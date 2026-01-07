@@ -1,0 +1,1432 @@
+@media screen and (max-width: 920px){
+
+
+
+    body{
+      background-color:  #E0FFFF;
+      /*background-image: url(4907157.jpg);*/
+      background-size: 100% auto;
+      background-attachment: fixed;
+      overflow: auto;
+  
+  
+      width: 100%;
+  
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Prevents horizontal scrolling */
+      box-sizing: border-box;
+  
+  
+      opacity: 0;
+      transition: opacity 2s ease-in;
+  
+     
+      
+  
+  
+    }
+  
+    body.loaded {
+      opacity: 1;
+    }
+  
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    
+  
+  
+  
+    /* PICUTRE */
+    .image1{
+      width: 300px;
+      height: 200px;
+      overflow-x: hidden;
+    }
+  
+    .startText h4{
+  
+      text-align: center;
+    
+      margin-top: 60px;
+    
+      font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    
+      margin-left: 90px;
+    
+      margin-right: 90px;
+    
+      font-weight: normal;
+    
+    
+    }
+  
+  
+    
+    .footer-contact2{
+    
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+  #typewriter{
+    font-size: 45px;
+  
+    font-weight: 500;
+  
+  
+  
+  }
+  
+  
+  .footer-contactStart{
+  
+    display: none;
+  
+  
+  }
+  
+  
+    
+  
+  
+  
+  /* HEADER */
+  header {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  }
+  
+  .header {
+    background: #52AD9C;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    height: 60px;
+
+    display: flex;               /* enable flexbox */
+    justify-content: center;     /* center horizontally */
+    align-items: center;         /* center vertically */
+    padding: 20px 0;    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+  }
+  
+  .nav-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .HeaderBlock2{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+  
+  }
+  
+  .HeaderBlock2 h1{
+  
+    font-size: 20px;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    margin-top: -200px;
+    
+  }
+  
+  
+  
+  
+  
+  #section1{
+  
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+
+    text-align: center;
+    overflow-x: hidden;
+  
+  }
+  
+  #section1 h1{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    font-size: 30px;
+
+    margin-top: 150px;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .mainText{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    font-size: 20px;
+  
+    overflow-x: hidden;
+
+    align-items: justify;
+
+    
+  
+  }
+  
+ 
+  
+  .mainText p{
+  
+  
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    font-size: 13px;
+  
+    overflow-x: hidden;
+
+    text-align: justify;
+
+    padding: 0 30px;
+
+  
+  }
+  
+
+ 
+  
+  
+
+  
+
+  #information {
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+
+    display: flex;
+    flex-direction: column;       /* stack h1 and text vertically */
+    justify-content: flex-start;  /* align to top of section */
+    align-items: center;          /* center horizontally */
+    min-height: 60vh;             /* ensures section has enough height */
+    padding: 5vh 0vw;             /* spacing around content */
+    box-sizing: border-box;       /* includes padding in height calculation */
+    text-align: center;
+
+    font-size: 12px;
+  
+  
+  }
+  
+  
+  #information p {
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;            /* makes paragraphs easier to read */
+    margin: 2rem 0;               /* spacing between paragraphs */
+    max-width: 900px;             /* limits paragraph width on large screens */
+    padding: 0 50px;              /* small horizontal padding for mobile */
+    text-align: justify;             /* optional: left align for readability */
+  }
+  
+  
+  
+  
+  
+  #section0 {
+    display: flex;
+    flex-direction: column;       /* stack h1 and text vertically */
+    justify-content: flex-start;  /* align to top of section */
+    align-items: center;          /* center horizontally */
+    min-height: 60vh;             /* ensures section has enough height */
+    padding: 5vh 0vw;             /* spacing around content */
+    box-sizing: border-box;       /* includes padding in height calculation */
+    text-align: center;
+}
+
+#section0 h1 {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 40px;
+  margin-bottom: 0rem; 
+
+  
+}
+
+
+.text1 p {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  padding: 0 50px;              /* small horizontal padding for mobile */
+  text-align: justify;             /* optional: left align for readability */
+
+}
+
+#section0 h4 {
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  padding: 0 50px;              /* small horizontal padding for mobile */
+  text-align: justify;             /* optional: left align for readability */
+ 
+
+}
+
+.textGoals {
+
+  display: none;
+}
+  
+  
+
+  
+  .text {
+    display: none;
+    font-size: 14px; /* Slightly smaller text on mobile */
+    text-align: justify;
+  }
+  
+
+
+
+
+  #keyLearning {
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+    display: flex;
+    flex-direction: column;       /* stack h1 and text vertically */
+    justify-content: flex-start;  /* align to top of section */
+    align-items: center;          /* center horizontally */
+    min-height: 60vh;             /* ensures section has enough height */
+    padding: 5vh 0vw;             /* spacing around content */
+    box-sizing: border-box;       /* includes padding in height calculation */
+    text-align: center;
+    padding-bottom: 1px;
+
+    font-size: 14px;
+  
+  
+  }
+  
+  #keyLearning p{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;            /* makes paragraphs easier to read */
+    margin: 2rem 0;               /* spacing between paragraphs */
+    max-width: 900px;             /* limits paragraph width on large screens */
+    padding: 0 50px;              /* small horizontal padding for mobile */
+    text-align: justify; 
+  
+  
+  }
+
+  #keyLearning h2 {
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  text-align: left;             /* optional: left align for readability */
+  padding: 0 50px;
+
+
+  }
+    
+  
+  
+  
+  
+  
+  .me {
+    display: flex; /* Enables Flexbox for alignment */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin-top: 100px;
+  
+  }
+  
+  .me img {
+    display: none;
+    width: 190px;
+    height: auto;
+    border: 5px solid #bbeeff;
+    padding: 0; /* Remove excessive padding */
+    margin: 0; /* Reset margin */
+  
+    margin-top: 350px;
+    
+  }
+  
+  
+  #section12 {
+    display: flex;
+    flex-direction: column;       /* stack h1 and text vertically */
+    justify-content: flex-start;  /* align to top of section */
+    align-items: center;          /* center horizontally */
+    min-height: 70vh;             /* ensures section has enough height */
+    padding: 60vh 0vw;             /* spacing around content */
+    box-sizing: border-box;       /* includes padding in height calculation */
+    text-align: center;
+  }
+
+  #section12 h1 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 22px;
+    
+    text-align: center;
+  }
+
+  .jobT p{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;            /* makes paragraphs easier to read */
+    padding: 0 50px;              /* small horizontal padding for mobile */
+    text-align: justify; 
+  
+    font-weight: 100;
+
+  
+
+  }
+
+  .job, .newText1 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;            /* makes paragraphs easier to read */
+    margin: 2rem 0;               /* spacing between paragraphs */
+    max-width: 900px;             /* limits paragraph width on large screens */
+    padding: 0 50px;              /* small horizontal padding for mobile */
+    text-align: justify; 
+  
+    font-weight: 100;
+
+    padding-bottom: -90px;
+  
+  }
+
+
+  .job ul {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    margin: 0 0 16px 22px;
+    padding: 0;
+  }
+
+  .job li {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    margin-bottom: 8px;
+  }
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #section3{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+    display: flex;
+    flex-direction: column;       /* stack h1 and text vertically */
+    justify-content: flex-start;  /* align to top of section */
+    align-items: center;          /* center horizontally */
+    min-height: 30vh;             /* ensures section has enough height */
+    padding: 5vh 0vw;             /* spacing around content */
+    box-sizing: border-box;       /* includes padding in height calculation */
+    text-align: center;
+    padding-bottom: 40px;
+
+    font-size: 14px;
+
+
+    margin-top: 150px;
+
+  
+    
+  }
+
+ 
+  
+  #section3 p{
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;            /* makes paragraphs easier to read */
+    margin: 2rem 0;               /* spacing between paragraphs */
+    padding: 0 50px;              /* small horizontal padding for mobile */
+    text-align: justify; 
+
+
+
+    
+  }
+
+
+
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  #section5{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    width: 100%;
+    height: auto;
+    padding: 400px 30px;
+    box-sizing: border-box;
+    text-align: left;
+  
+  
+  }
+  
+  #section5 h1{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 22px;
+    margin-bottom: 400px;
+    text-align: center;
+    margin-top: -400px;
+  }
+  
+  
+
+
+  
+
+  .mainText{
+
+
+      max-width: 90%;   /* keep text from being too wide */
+      margin: 0 auto;   /* center it */
+      padding: 10px;    /* space inside */
+      font-size: 16px;  /* readable size */
+      line-height: 1.6; /* improve readability */
+    
+
+  }
+
+
+  
+ 
+ 
+  
+  
+  .me5 img{
+
+  
+    width: 410px;
+    height: auto;
+    border: 5px solid #bbeeff;
+ 
+  
+    margin-top: 70px;
+
+
+  }
+
+  .me5{
+
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  .jobtext2{
+
+    display: block;
+    font-size: 15px; 
+    text-align: justify;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    padding: 35px;
+    margin-top: -450px;
+
+
+  }
+
+  .jobtext2 p{
+
+    margin-bottom: 1px; /* Slightly reduce space between paragraphs */
+  
+    text-align: justify !important;
+
+    
+  }
+
+  .jobtext3{
+
+    display: block;
+    font-size: 15px; 
+    text-align: justify;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    padding: 35px;
+    margin-top: -400px;
+  
+  
+  }
+
+
+ 
+
+
+  
+
+  .ontarioPic{
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    padding-bottom: 100px;
+
+    gap: 50px
+
+
+  }
+
+  .ontarioPic img {
+
+
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+
+  }
+
+
+  .informationPics{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 70vh;           /* take full viewport height */
+    padding-bottom: 100px;
+
+    gap: 50px
+
+
+
+  }
+
+
+
+  .informationPics img {
+
+
+    width: 290px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+
+
+  .jobPic {
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 10vh;           /* take full viewport height */
+
+    margin-top: -380px;
+
+
+  }
+
+  .jobPic img {
+
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+
+
+  .finalPics{
+
+    flex-direction: column;
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 20vh;           /* take full viewport height */
+    padding-bottom: 400px;
+
+    gap: 50px
+
+  }
+
+  .finalPics img {
+
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+  
+  
+  
+
+  .me5 {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 25vh;           /* take full viewport height */
+    padding-bottom: 200px;
+  }
+  
+  .me5 img {
+    width: 710px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+    margin-top: 200px;
+  }
+  
+  
+
+
+  
+  
+  } /*END OF PHONE-----------------------------------------*/
+  
+  
+  
+  
+  @media screen and (min-width: 921px){
+  
+  
+    body{
+      /*background-color: white;*/
+      background-color: #E0FFFF;
+      /*background-image: url(4907157.jpg);*/
+      background-size: 100% auto;
+      background-attachment: fixed;
+      overflow: auto;
+  
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Prevents horizontal scrolling */
+  
+      
+  
+    }
+  
+
+    .mobile-menu-wrapper{
+  
+      display: none;
+  
+    }
+
+  
+    .contactMe{
+      display: none;
+    }
+  
+   
+  
+
+  
+  /* HEADER */
+  
+  #top-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #e0f0ff; /* Slightly softer blue */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*margin-left: 50px;*/
+    /*margin-top: 10px;*/
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    /*font-family: 'Courier New', Courier, monospace;*/
+  
+    background-color: #52AD9C;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); 
+    padding: 10px 5%;
+  
+  }
+  
+  
+  
+    
+  /* ROW HEADER */
+  
+  
+  
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  
+  
+  }
+  
+  /* DECORATION, COLOUR OF TEXT */
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+    position: relative;
+    
+  }
+  
+  
+  nav ul li a::after{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+  
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+  
+  
+  
+  
+  #section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* ensures it has some height */
+    height: auto;      /* lets content expand */
+    text-align: center;
+    padding: 5vh 5vw;  /* responsive spacing around content */
+    box-sizing: border-box; /* includes padding in height calculations */
+  }
+
+  #section1 h1{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    font-size: 38px;
+    margin-top: -90px;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  #section1 h2{
+    font-size: 25px;
+  }
+  
+
+  
+  
+  .mainText {
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    font-size: 50px;
+  
+  }
+  
+  .mainText p{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    font-size: 18px;
+
+    
+  
+   
+  
+  }
+  
+  .mainText h2{
+
+    font-size: 50px;
+
+  }
+  
+ 
+  /* SECTION STYLING */
+#section0 {
+  display: flex;
+  flex-direction: column;       /* stack h1 and text vertically */
+  justify-content: flex-start;  /* align to top of section */
+  align-items: center;          /* center horizontally */
+  min-height: 60vh;             /* ensures section has enough height */
+  padding: 1vh 0vw;             /* spacing around content */
+  box-sizing: border-box;       /* includes padding in height calculation */
+  text-align: center;
+}
+
+/* SECTION HEADER */
+#section0 h1 {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 40px;
+  margin-bottom: 0rem;          /* spacing between heading and text */
+}
+
+/* TEXT PARAGRAPHS */
+#section0 .textGoals p {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  text-align: left;             /* optional: left align for readability */
+  padding: 0 150px;
+  font-weight: 100;
+}
+
+#section0 h4 {
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  text-align: left;             /* optional: left align for readability */
+  padding: 0 150px;
+ 
+
+
+}
+
+#information {
+
+  display: flex;
+  flex-direction: column;       /* stack h1 and text vertically */
+  justify-content: flex-start;  /* align to top of section */
+  align-items: center;          /* center horizontally */
+  min-height: 60vh;             /* ensures section has enough height */
+  padding: 5vh 0vw;             /* spacing around content */
+  box-sizing: border-box;       /* includes padding in height calculation */
+  text-align: center;
+  
+
+
+}
+
+
+#information p {
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  text-align: center;             /* optional: left align for readability */
+  
+}
+
+.infoText {
+  padding: 0 150px;
+}
+
+#keyLearning {
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+
+  display: flex;
+  flex-direction: column;       /* stack h1 and text vertically */
+  justify-content: flex-start;  /* align to top of section */
+  align-items: center;          /* center horizontally */
+  min-height: 60vh;             /* ensures section has enough height */
+  padding: 5vh 0vw;             /* spacing around content */
+  box-sizing: border-box;       /* includes padding in height calculation */
+  text-align: center;
+
+
+}
+
+#keyLearning p{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  padding: 0 10px;              /* small horizontal padding for mobile */
+  text-align: justify; 
+
+  font-weight: 100;
+
+
+}
+
+#keyLearning h2{
+
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  font-size: 22px;
+  line-height: 1.6;            /* makes paragraphs easier to read */
+  margin: 2rem 0;               /* spacing between paragraphs */
+  padding: 0 10px;              /* small horizontal padding for mobile */
+  text-align: left; 
+
+
+}
+
+#keyLearning p {
+
+  padding: 0 150px;
+}
+  
+  
+  
+  
+
+  
+  .text{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    font-size: 18px;
+  
+    text-align: justify;
+  
+    margin-top: -240px;
+  
+    
+  
+  }
+  
+  
+  .text p{
+  
+    margin-bottom: 150px;
+    padding: 0 350px;
+  }
+  
+  
+  .text1{
+    display: none;
+  }
+  
+  
+  .me {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 1vh;           /* take full viewport height */
+    padding-bottom: 200px;
+  }
+  
+  .me img {
+    width: 710px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+  }
+  
+
+  .me5 {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 25vh;           /* take full viewport height */
+    padding-bottom: 200px;
+  }
+  
+  .me5 img {
+    width: 710px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+    margin-top: 200px;
+  }
+  
+  
+  
+  
+  
+  
+  #section12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;         /* Center content horizontally */
+    justify-content: flex-start; /* Align content at the top */
+    min-height: 100vh;
+
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+/* Space below the section header */
+#section12 h1 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+  
+  
+  
+ .jobtext p{
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    text-align: justify;
+    margin-top: -1250px;
+    font-size: 18px;
+    padding: 150px;
+
+
+  
+  }
+
+  .jobT p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: 100;
+    padding: 0 150px;
+
+    text-align: justify;
+}
+
+.job ul {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  list-style: disc inside;
+  font-size: 18px;
+  padding-left: 0;         /* Remove default padding */
+  margin: 0; 
+}
+
+.job li {
+  margin-bottom: 14px;
+  text-align: left;        /* Improve readability for list items */
+}
+
+
+.newText1 {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+  margin-top: 36px;   /* Adds space above the new text section */
+  font-size: 18px;
+  text-align: justify;   /* Improved readability for paragraph text */
+
+  font-weight: 100;
+  padding: 0 150px;
+}
+
+
+  
+
+  
+  
+  #section3 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+    display: flex;
+    flex-direction: column;    /* Stack vertically */
+    justify-content: flex-start; /* Start at top, not center */
+    align-items: center;         /* Center horizontally */
+    min-height: 40vh;            /* Use min-height instead of fixed height */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+#section3 p {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+  font-size: 18px;
+  margin: 0 auto 0 auto;      /* Center paragraph, space above and below if needed */
+
+  font-weight: 100;
+  padding: 0 150px;
+
+ 
+}
+
+
+  
+#section5 {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+
+  display: flex;
+  flex-direction: column;         /* Stack content vertically */
+  align-items: center;            /* Center horizontally */
+  justify-content: flex-start;    /* Start at top of section */
+  min-height: 40vh;               /* Grow as needed */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+
+#section5 p {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 0 0;                /* Remove unnecessary margin */
+  padding: 0 30px;                /* Smaller horizontal padding for some side space */
+
+  font-weight: 100;
+  padding: 0 150px;
+}
+  
+
+  
+  .text p{
+  
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+   
+    margin-left: 100px;
+    font-size: 19px;
+    margin-top: -100px;
+  
+  }
+  
+  .image img{
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: -20px;
+  
+    margin-right: 0px;
+  
+    border: 5px solid black; /* Change 'black' to your desired color */
+    border-radius: 15px; 
+  }
+  
+  
+  
+  
+  
+  .phoneText{
+  
+    display: none;
+  
+  
+  }
+
+  .ontarioPic{
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 20vh;           /* take full viewport height */
+    padding-bottom: 300px;
+
+    gap: 50px;
+;
+
+    
+
+
+  }
+
+  .ontarioPic img {
+
+
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+ 
+
+
+  }
+
+
+  .informationPics{
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 50vh;           /* take full viewport height */
+    padding-bottom: 300px;
+
+    gap: 50px
+
+
+
+  }
+
+
+
+  .informationPics img {
+
+
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+
+
+  .jobPic {
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 90vh;           /* take full viewport height */
+    padding-bottom: 300px;
+
+    gap: 50px
+
+
+  }
+
+  .jobPic img {
+
+    width: 550px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+
+
+  .finalPics{
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 60vh;           /* take full viewport height */
+    padding-bottom: 300px;
+
+    gap: 50px
+
+  }
+
+  .finalPics img {
+
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+  
+  
+  
+
+  .me5 {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 25vh;           /* take full viewport height */
+    padding-bottom: 200px;
+  }
+  
+  .me5 img {
+    width: 710px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+    margin-top: 200px;
+  }
+  
+  
+  }
+  
+  
+  
+  
+  
+  /*FOOTER----------*/
+  
+  
+  
+  .footer {
+  
+    margin-top: 100px;
+    height: auto; 
+    padding: 20px 16px; 
+    /*background: #FFFAF0; */
+    /*background: #bbeeff; */
+    background: #52AD9C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    border-top: 2px solid #e0e0e0; 
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .footer p{
+  
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+  
+    color: #ffffff;
+  
+  }
+  
+  
+ 
+  
+  
+  
+
+    
+  
+  
+  
+    
+  
+  
+  
