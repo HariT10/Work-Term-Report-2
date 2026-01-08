@@ -550,9 +550,9 @@
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     width: 100%;
     height: auto;
-    padding: 400px 30px;
+    padding: 500px 50px;
     box-sizing: border-box;
-    text-align: left;
+    text-align: justify;
 
     padding-top: 5px;
   
@@ -571,11 +571,10 @@
   #section5 p{
 
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-      max-width: 90%;   /* keep text from being too wide */
       font-size: 14px;  /* readable size */
       line-height: 1.6; /* improve readability */
     
-
+    text-align: justify;
 
   }
 
@@ -693,14 +692,14 @@
     align-items: center;     /* centers vertically */
     height: 10vh;           /* take full viewport height */
 
-    margin-top: -320px;
+    margin-top: -300px;
 
 
   }
 
   .jobPic img {
 
-    width: 280px;
+    width: 250px;
     height: auto;
     border-radius: 20px;
     border: 5px solid #52AD9C;
@@ -739,7 +738,7 @@
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
     height: 70vh;           /* take full viewport height */
-    padding-bottom: 350px;
+    padding-bottom: 380px;
 
     gap: 50px
 
@@ -1140,7 +1139,7 @@
     flex-direction: column;
     align-items: center;         /* Center content horizontally */
     justify-content: flex-start; /* Align content at the top */
-    min-height: 100vh;
+    min-height: 40vh;
 
     box-sizing: border-box;
     text-align: center;
@@ -1151,7 +1150,7 @@
 #section12 h1 {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-size: 29px;
-    margin-bottom: 32px;
+  
 }
   
   
@@ -1160,7 +1159,7 @@
 
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     text-align: justify;
-    margin-top: -1250px;
+   
     font-size: 17px;
     padding: 150px;
 
@@ -1170,7 +1169,7 @@
 
   .jobT p {
     font-size: 17px;
-    margin-bottom: 32px;
+    
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 
     padding: 0 150px;
@@ -1215,7 +1214,7 @@
     flex-direction: column;    /* Stack vertically */
     justify-content: flex-start; /* Start at top, not center */
     align-items: center;         /* Center horizontally */
-    min-height: 40vh;            /* Use min-height instead of fixed height */
+    min-height: 30vh;            /* Use min-height instead of fixed height */
     box-sizing: border-box;
     text-align: center;
 }
@@ -1246,7 +1245,7 @@
   flex-direction: column;         /* Stack content vertically */
   align-items: center;            /* Center horizontally */
   justify-content: flex-start;    /* Start at top of section */
-  min-height: 40vh;               /* Grow as needed */
+  min-height: 30vh;               /* Grow as needed */
   box-sizing: border-box;
   text-align: center;
 }
@@ -1308,7 +1307,6 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 20vh;           /* take full viewport height */
     padding-bottom: 300px;
 
     gap: 50px;
@@ -1366,10 +1364,10 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 0vh;           /* take full viewport height */
-    padding-bottom: 500px;
+    padding-bottom: 50px;
 
-    gap: 50px
+    gap: 50px;
+
 
 
   }
@@ -1381,6 +1379,8 @@
     border-radius: 20px;
     border: 5px solid #52AD9C;
 
+ 
+
 
   }
 
@@ -1389,7 +1389,6 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 55vh;           /* take full viewport height */
     padding-bottom: 50px;
 
     gap: 50px
@@ -1413,8 +1412,8 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 20vh;           /* take full viewport height */
-    padding-bottom: 300px;
+   
+    padding-bottom: 200px;
 
     gap: 50px
 
