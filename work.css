@@ -62,7 +62,7 @@
     
       margin-right: 90px;
     
-      font-weight: normal;
+  
     
     
     }
@@ -78,7 +78,7 @@
   #typewriter{
     font-size: 45px;
   
-    font-weight: 500;
+
   
   
   
@@ -139,7 +139,7 @@
   .nav-menu li a {
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 13px;
   }
   
   .nav-menu li a:hover {
@@ -182,11 +182,15 @@
   #section1 h1{
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
   
-    font-size: 30px;
+    font-size: 25px;
 
     margin-top: 150px;
     align-items: center;
     overflow-x: hidden;
+  }
+
+  #section1 h2{
+    font-size: 17px;
   }
   
   .mainText{
@@ -211,13 +215,13 @@
   
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
   
-    font-size: 13px;
+    font-size: 14px;
   
     overflow-x: hidden;
 
     text-align: justify;
 
-    padding: 0 30px;
+    padding: 0 50px;
 
   
   }
@@ -243,9 +247,17 @@
     box-sizing: border-box;       /* includes padding in height calculation */
     text-align: center;
 
-    font-size: 12px;
+
   
   
+  }
+
+  #information h1{
+
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 22px;
+    margin-bottom: 0rem; 
+
   }
   
   
@@ -277,7 +289,7 @@
 
 #section0 h1 {
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 40px;
+  font-size: 22px;
   margin-bottom: 0rem; 
 
   
@@ -294,17 +306,20 @@
 
 }
 
-#section0 h4 {
+.text1 h4{
 
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.6;            /* makes paragraphs easier to read */
   margin: 2rem 0;               /* spacing between paragraphs */
   padding: 0 50px;              /* small horizontal padding for mobile */
   text-align: justify;             /* optional: left align for readability */
- 
+
+
 
 }
+
+
 
 .textGoals {
 
@@ -336,11 +351,17 @@
     padding: 5vh 0vw;             /* spacing around content */
     box-sizing: border-box;       /* includes padding in height calculation */
     text-align: center;
-    padding-bottom: 1px;
 
-    font-size: 14px;
   
   
+  }
+
+  #keyLearning h1 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 22px;
+
+  
+    
   }
   
   #keyLearning p{
@@ -362,7 +383,7 @@
   font-size: 18px;
   line-height: 1.6;            /* makes paragraphs easier to read */
   margin: 2rem 0;               /* spacing between paragraphs */
-  text-align: left;             /* optional: left align for readability */
+  text-align: center;             /* optional: left align for readability */
   padding: 0 50px;
 
 
@@ -403,6 +424,7 @@
     padding: 60vh 0vw;             /* spacing around content */
     box-sizing: border-box;       /* includes padding in height calculation */
     text-align: center;
+    padding-top: 5px;
   }
 
   #section12 h1 {
@@ -419,7 +441,7 @@
     padding: 0 50px;              /* small horizontal padding for mobile */
     text-align: justify; 
   
-    font-weight: 100;
+   
 
   
 
@@ -434,7 +456,7 @@
     padding: 0 50px;              /* small horizontal padding for mobile */
     text-align: justify; 
   
-    font-weight: 100;
+ 
 
     padding-bottom: -90px;
   
@@ -473,16 +495,24 @@
     flex-direction: column;       /* stack h1 and text vertically */
     justify-content: flex-start;  /* align to top of section */
     align-items: center;          /* center horizontally */
-    min-height: 30vh;             /* ensures section has enough height */
+    min-height: 10vh;             /* ensures section has enough height */
     padding: 5vh 0vw;             /* spacing around content */
     box-sizing: border-box;       /* includes padding in height calculation */
     text-align: center;
-    padding-bottom: 40px;
 
-    font-size: 14px;
+
+ 
 
 
     margin-top: 150px;
+
+  
+    
+  }
+
+  #section3 h1 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 22px;
 
   
     
@@ -523,6 +553,8 @@
     padding: 400px 30px;
     box-sizing: border-box;
     text-align: left;
+
+    padding-top: 5px;
   
   
   }
@@ -530,53 +562,33 @@
   #section5 h1{
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-size: 22px;
-    margin-bottom: 400px;
+  
     text-align: center;
-    margin-top: -400px;
   }
   
   
 
+  #section5 p{
 
-  
-
-  .mainText{
-
-
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
       max-width: 90%;   /* keep text from being too wide */
-      margin: 0 auto;   /* center it */
-      padding: 10px;    /* space inside */
-      font-size: 16px;  /* readable size */
+      font-size: 14px;  /* readable size */
       line-height: 1.6; /* improve readability */
     
 
+
   }
 
+  
 
   
  
  
   
   
-  .me5 img{
+  
 
   
-    width: 410px;
-    height: auto;
-    border: 5px solid #bbeeff;
- 
-  
-    margin-top: 70px;
-
-
-  }
-
-  .me5{
-
-    display: flex;
-    justify-content: center;
-  }
-
   
   .jobtext2{
 
@@ -592,6 +604,7 @@
 
   .jobtext2 p{
 
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     margin-bottom: 1px; /* Slightly reduce space between paragraphs */
   
     text-align: justify !important;
@@ -606,7 +619,7 @@
     text-align: justify;
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
     padding: 35px;
-    margin-top: -400px;
+  
   
   
   }
@@ -622,7 +635,7 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    padding-bottom: 100px;
+    padding-bottom: 95px;
 
     gap: 50px
 
@@ -636,6 +649,8 @@
     height: auto;
     border-radius: 20px;
     border: 5px solid #52AD9C;
+
+    margin-top: 50px;
 
 
 
@@ -678,7 +693,7 @@
     align-items: center;     /* centers vertically */
     height: 10vh;           /* take full viewport height */
 
-    margin-top: -380px;
+    margin-top: -320px;
 
 
   }
@@ -710,7 +725,7 @@
 
   .finalPics img {
 
-    width: 280px;
+    width: 240px;
     height: auto;
     border-radius: 20px;
     border: 5px solid #52AD9C;
@@ -854,6 +869,7 @@
   
   
   #section1 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -874,6 +890,7 @@
   }
 
   #section1 h2{
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-size: 25px;
   }
   
@@ -901,7 +918,7 @@
   }
   
   .mainText h2{
-
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-size: 50px;
 
   }
@@ -909,6 +926,7 @@
  
   /* SECTION STYLING */
 #section0 {
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   display: flex;
   flex-direction: column;       /* stack h1 and text vertically */
   justify-content: flex-start;  /* align to top of section */
@@ -934,7 +952,7 @@
   margin: 2rem 0;               /* spacing between paragraphs */
   text-align: left;             /* optional: left align for readability */
   padding: 0 150px;
-  font-weight: 100;
+ 
 }
 
 #section0 h4 {
@@ -951,7 +969,7 @@
 }
 
 #information {
-
+  font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   display: flex;
   flex-direction: column;       /* stack h1 and text vertically */
   justify-content: flex-start;  /* align to top of section */
@@ -1006,7 +1024,7 @@
   padding: 0 10px;              /* small horizontal padding for mobile */
   text-align: justify; 
 
-  font-weight: 100;
+
 
 
 }
@@ -1097,6 +1115,7 @@
   
   
   #section12 {
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;         /* Center content horizontally */
@@ -1133,7 +1152,7 @@
     font-size: 18px;
     margin-bottom: 32px;
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-    font-weight: 100;
+
     padding: 0 150px;
 
     text-align: justify;
@@ -1160,7 +1179,7 @@
   font-size: 18px;
   text-align: justify;   /* Improved readability for paragraph text */
 
-  font-weight: 100;
+  
   padding: 0 150px;
 }
 
@@ -1170,7 +1189,7 @@
   
   
   #section3 {
-    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 
     display: flex;
     flex-direction: column;    /* Stack vertically */
@@ -1188,7 +1207,7 @@
   font-size: 18px;
   margin: 0 auto 0 auto;      /* Center paragraph, space above and below if needed */
 
-  font-weight: 100;
+
   padding: 0 150px;
 
  
@@ -1218,7 +1237,7 @@
   margin: 0 0 0 0;                /* Remove unnecessary margin */
   padding: 0 30px;                /* Smaller horizontal padding for some side space */
 
-  font-weight: 100;
+ 
   padding: 0 150px;
 }
   
