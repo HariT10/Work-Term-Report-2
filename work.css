@@ -708,6 +708,28 @@
 
   }
 
+  .jobPic2{
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 10vh;           /* take full viewport height */
+
+    padding-bottom: 90px;
+
+
+  }
+
+  .jobPic2 img{
+
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+
+  }
+
 
   .finalPics{
 
@@ -716,8 +738,8 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 20vh;           /* take full viewport height */
-    padding-bottom: 400px;
+    height: 70vh;           /* take full viewport height */
+    padding-bottom: 350px;
 
     gap: 50px
 
@@ -883,7 +905,7 @@
   #section1 h1{
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
   
-    font-size: 38px;
+    font-size: 35px;
     margin-top: -90px;
     align-items: center;
     overflow-x: hidden;
@@ -891,25 +913,18 @@
 
   #section1 h2{
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-    font-size: 25px;
+    font-size: 24px;
   }
   
 
-  
-  
-  .mainText {
-  
-    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
-  
-    font-size: 50px;
-  
-  }
+
   
   .mainText p{
+
   
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
   
-    font-size: 18px;
+    font-size: 17px;
 
     
   
@@ -918,6 +933,7 @@
   }
   
   .mainText h2{
+    padding-bottom: 39px;
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     font-size: 50px;
 
@@ -940,14 +956,14 @@
 /* SECTION HEADER */
 #section0 h1 {
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 40px;
+  font-size: 26px;
   margin-bottom: 0rem;          /* spacing between heading and text */
 }
 
 /* TEXT PARAGRAPHS */
 #section0 .textGoals p {
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;            /* makes paragraphs easier to read */
   margin: 2rem 0;               /* spacing between paragraphs */
   text-align: left;             /* optional: left align for readability */
@@ -958,7 +974,7 @@
 #section0 h4 {
 
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;            /* makes paragraphs easier to read */
   margin: 2rem 0;               /* spacing between paragraphs */
   text-align: left;             /* optional: left align for readability */
@@ -983,11 +999,15 @@
 
 }
 
+#information h1{
+  font-size: 26px;
+}
+
 
 #information p {
 
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;            /* makes paragraphs easier to read */
   margin: 2rem 0;               /* spacing between paragraphs */
   text-align: center;             /* optional: left align for readability */
@@ -1018,7 +1038,7 @@
 #keyLearning p{
 
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;            /* makes paragraphs easier to read */
   margin: 2rem 0;               /* spacing between paragraphs */
   padding: 0 10px;              /* small horizontal padding for mobile */
@@ -1130,7 +1150,7 @@
 /* Space below the section header */
 #section12 h1 {
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-    font-size: 40px;
+    font-size: 29px;
     margin-bottom: 32px;
 }
   
@@ -1141,7 +1161,7 @@
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
     text-align: justify;
     margin-top: -1250px;
-    font-size: 18px;
+    font-size: 17px;
     padding: 150px;
 
 
@@ -1149,7 +1169,7 @@
   }
 
   .jobT p {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 32px;
     font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 
@@ -1176,7 +1196,7 @@
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
 
   margin-top: 36px;   /* Adds space above the new text section */
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify;   /* Improved readability for paragraph text */
 
   
@@ -1200,11 +1220,15 @@
     text-align: center;
 }
 
+#section3 h1{
+  font-size: 26px;
+}
+
 
 #section3 p {
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;;
 
-  font-size: 18px;
+  font-size: 17px;
   margin: 0 auto 0 auto;      /* Center paragraph, space above and below if needed */
 
 
@@ -1227,13 +1251,15 @@
   text-align: center;
 }
 
-
+#section5 h1{
+  font-size: 26px;
+}
 
 
 #section5 p {
   font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 17px;
   margin: 0 0 0 0;                /* Remove unnecessary margin */
   padding: 0 30px;                /* Smaller horizontal padding for some side space */
 
@@ -1313,7 +1339,7 @@
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
     height: 50vh;           /* take full viewport height */
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 
     gap: 50px
 
@@ -1340,8 +1366,8 @@
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 90vh;           /* take full viewport height */
-    padding-bottom: 300px;
+    height: 0vh;           /* take full viewport height */
+    padding-bottom: 500px;
 
     gap: 50px
 
@@ -1358,13 +1384,36 @@
 
   }
 
+  .jobPic2 {
+
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 55vh;           /* take full viewport height */
+    padding-bottom: 50px;
+
+    gap: 50px
+
+
+  }
+
+  .jobPic2 img{
+
+
+    width: 550px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #52AD9C;
+
+  }
+
 
   .finalPics{
 
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center;     /* centers vertically */
-    height: 60vh;           /* take full viewport height */
+    height: 20vh;           /* take full viewport height */
     padding-bottom: 300px;
 
     gap: 50px
